@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="105dp"
+        android:layout_margin="0sp"
+        android:layout_marginStart="8dp"
+        android:background="#fc987e"
+        android:orientation="horizontal"
+        android:text="This is an orange text view "
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="106dp"
+        android:layout_margin="127sp"
+        android:layout_marginStart="128dp"
+        android:background="#cdedd7"
+        android:text="This is an orange text view "
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="106dp"
+        android:layout_margin="255dp"
+        android:layout_marginStart="248dp"
+        android:background="#7bccc6"
+        android:text="This is an orange text view "
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-6dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="123dp"
+        android:layout_height="106dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="109dp"
+        android:background="#7bccc6"
+        android:textColor="@color/black"
+        android:text="This is a button"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="123dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="109dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="123dp"
+        android:layout_height="106dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="109dp"
+        android:background="#9dc097"
+        android:textColor="@color/black"
+        android:text="This is a button"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        tools:ignore="MissingConstraints"
+        android:hint="This is an edit text"
+        android:background="#fbc962"
+        tools:layout_editor_absoluteY="240dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        tools:ignore="MissingConstraints"
+        android:hint="This is an edit text"
+        android:background="#fbc962"
+        tools:layout_editor_absoluteY="295dp"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="365dp"
+        android:text="Auto backup"
+        android:textAlignment="textEnd"
+        android:background="#7bccc6"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="365dp"
+        android:textAlignment="textStart"
+        android:text="Notify me :)"
+        />
+
+    <RatingBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7bccc6"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="445dp"
+        android:background="#7bccc6"
+        android:text="Yes"
+        tools:ignore="MissingConstraints" />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="475dp"
+        android:background="#7bccc6"
+        android:text="No"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
